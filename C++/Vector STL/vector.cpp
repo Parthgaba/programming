@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
 
-void display(vector<int> &v)
+using namespace std;
+
+void displayVector(vector<int> &v)
 {
     for (int i = 0; i < v.size(); i++)
     {
@@ -14,12 +16,13 @@ int main()
     int n, element;
     cin >> n;
     vector<int> v;
+    vector<char> vChar(6, 'a');
     for (int i = 0; i < n; i++)
     {
         cin >> element;
-        vector.push_back(element);
+        v.push_back(element);
     }
-    diplay(v);
+    displayVector(v);
 
     return 0;
 }
