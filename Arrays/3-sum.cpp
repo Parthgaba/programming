@@ -2,7 +2,8 @@
 #include <vector>
 
 using namespace std;
-
+//Time Complexity = O(n^2)
+//Space Complexity = O(1)
 int count3Sum(vector<int> &v, int k)
 {
     sort(v.begin(), v.end());
