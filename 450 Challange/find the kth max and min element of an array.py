@@ -1,0 +1,5 @@
+n = int(input())
+arr = list(map(int,input().split()))
+k = int(input("enter value of k: "))
+arr.sort()
+print(arr[k], arr[n-k])
